@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Offline GPS Route Map</string>
+    <!--
+    <string name="banner_home_footer">ca-app-pub-1223161556883960/9740569339</string>
+    <string name="interstitial_full_screen">ca-app-pub-1223161556883960/2217302539</string>
+    -->
+
+    <string name="banner_home_footer">ca-app-pub-8002008697356859/2873231770</string>
+    <string name="interstitial_full_screen">ca-app-pub-8002008697356859/8559359641</string>
+    <string name="not_found">Image not found</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="country">Country :-</string>
+    <string name="capital">Capital :-</string>
+    <string name="continent">Continent :-</string>
+    <string name="pdialog_title">Permission Denied</string>
+    <string name="pdialog_text">You are currently denied permissions to accessing LOCATION and Mobile External Storage please allow the Permissions for Mobile Services.</string>
+    <string name="pdialog_setting_btn">Allow Permissions</string>
+
+</resources>
+
+
+

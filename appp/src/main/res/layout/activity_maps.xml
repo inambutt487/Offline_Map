@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    android:weightSum="10">
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight=".7"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/radiogrp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:background="#99faf4"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_normal"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="Map"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_satellite"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Satelite"
+                android:textColor="#080808"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_terrain"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Terian"
+                android:textColor="#060606"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_hybride"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Hybrid"
+                android:textColor="#0a0909"
+                android:textStyle="bold" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8.3"
+        tools:context="com.example.waseem.gpss.MapsActivity" />
+
+    <com.google.android.gms.ads.AdView
+        android:background="#ecd2d2"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-1963616082919996/1434468661">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>
+

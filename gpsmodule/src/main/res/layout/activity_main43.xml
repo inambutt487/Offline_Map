@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.example.waseem.gpss.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="10.7">
+
+
+        <ImageView
+            android:id="@+id/rout_finder"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:src="@drawable/btn_dest" />
+
+        <ImageView
+            android:id="@+id/mylocation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:src="@drawable/btn_location" />
+
+        <ImageView
+            android:id="@+id/fav_location"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:src="@drawable/fav" />
+
+        <ImageView
+            android:id="@+id/sharemylocation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:src="@drawable/btn_share_loc"
+            tools:ignore="InvalidId" />
+
+        <ImageView
+            android:id="@+id/srchlctinbtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:src="@drawable/btn_nearby" />
+
+
+        <ImageView
+            android:id="@+id/shareapp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.2"
+            android:src="@drawable/btn_sh" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="bottom"
+            android:layout_weight="1.8">
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adViewMain3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-8002008697356859/2873231770" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

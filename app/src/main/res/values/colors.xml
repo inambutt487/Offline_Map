@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b94646</color>
+    <color name="colorPrimaryDark">#261936</color>
+    <color name="colorAccent">#310074</color>
+
+    <color name="text_color">#000</color>
+
+    <color name="tab_background_selected">#66a5b8</color>
+    <color name="tab_background_unselected">#add8e6</color>
+    <color name="your_unselected_text_color">#1d122b</color>
+    <color name="cardview_bg" >#ffffff</color>
+    <color name="cardview_bg_press" >#f7f2fd</color>
+</resources>

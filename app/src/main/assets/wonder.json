@@ -1,0 +1,75 @@
+{
+  "version": 1421569736883,
+  "wonder": [
+		{
+			"name":"Taj Mahal",
+			"lat":"27.174799",
+			"lng":"78.042111",
+			"continent":"AS",
+			"code":"IN"
+		
+		},
+		{
+			"name":"Great Pyramid of Giza",
+			"lat":"29.9784471",
+			"lng":"31.132859",
+			"continent":"AF",
+			"code":"EG"
+	
+		},
+		{
+			"name":"Colosseum",
+			"lat":"41.8906115",
+			"lng":"12.4907027",
+			"continent":"EU",
+			"code":"IT"
+		},
+		{
+			"name":"Chichen Itza",
+			"lat":"20.6829",
+			"lng":"-88.56865",
+			"continent":"NA",
+			"code":"MX"
+		
+		},
+		{
+			"name":"Machu Picchu",
+			"lat":"-13.1632003",
+			"lng":"-72.5448655",
+			"continent":"SA",
+			"code":"PE"
+	
+		},
+		{
+			"name":"Christ the Redeemer",
+			"lat":"-22.9518499",
+			"lng":"-43.2100847",
+			"continent":"SA",
+			"code":"BR"
+		},
+		{
+			"name":"Petra",
+			"lat":"30.3289159",
+			"lng":"35.4425315",
+			"continent":"AS",
+			"code":"JO"
+		
+		},
+		{
+			"name":"Great Wall of China",
+			"lat":"40.4319077",
+			"lng":"116.5703749",
+			"continent":"AS",
+			"code":"CN"
+	
+		},
+		{
+			"name":"Eiffel Tower",
+			"lat":"48.8579195",
+			"lng":"2.2953438",
+			"continent":"EU",
+			"code":"FR"
+		}
+	
+	]
+}

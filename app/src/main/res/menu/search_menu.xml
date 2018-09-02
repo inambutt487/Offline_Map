@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Search"  android:icon="@android:drawable/ic_menu_search" android:id="@+id/action_search"  android:actionViewClass="android.support.v7.widget.SearchView" />
+    <!--<item android:id="@id/rateandroidhome" android:orderInCategory="101" android:title="Rate android" android:showAsAction="0" />-->
+    <!--<item android:id="@id/share_android" android:orderInCategory="102" android:title="Share android" android:showAsAction="0" />-->
+</menu>

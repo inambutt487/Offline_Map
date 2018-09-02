@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adViewMain1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer"></com.google.android.gms.ads.AdView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:paddingTop="50dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gif_" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.18">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/offline_map"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:src="@drawable/btn_navigator"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.18"
+        android:layout_marginBottom="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:id="@+id/map_atlas"
+                android:layout_width="280dp"
+                android:layout_height="80dp"
+                android:src="@drawable/btn_atlas"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:gravity="center_horizontal|bottom">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adViewMain2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-8002008697356859/2873231770"></com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+{
+  "version": 1421569736883,
+  "river": [
+		{
+			"name":"Nile",
+			"distance":"6,650",
+			"lat":"29.579709",
+			"lng":"31.269150",
+			"continent":"AF"
+		
+		},
+		{
+			"name":"Amazon",
+			"distance":"6,400",
+			"lat":"-1.972707",
+			"lng":"-55.964355",
+			"continent":"SA"
+	
+		},
+		{
+			"name":"Yangtze",
+			"distance":"6,300",
+			"lat":"31.846940",
+			"lng":"120.872861",
+			"continent":"AS"
+		},
+		{
+			"name":"Mississippi",
+			"distance":"6,275",
+			"lat":"38.342773",
+			"lng":"-90.366819",
+			"continent":"NA"
+		
+		},
+		{
+			"name":"Yenisei",
+			"distance":"5,539",
+			"lat":"71.833333",
+			"lng":"82.666667",
+			"continent":"AS"
+	
+		},
+		{
+			"name":"Yellow River",
+			"distance":"5,464",
+			"lat":"34.809808",
+			"lng":"97.427852",
+			"continent":"AS"
+		},
+		{
+			"name":"Ob",
+			"distance":"5,410",
+			"lat":"66.816377",
+			"lng":"68.988647",
+			"continent":"SA"
+		
+		},
+		{
+			"name":"Paraná",
+			"distance":"4,880",
+			"lat":"-32.901227",
+			"lng":"-60.645905",
+			"continent":"AS"
+	
+		},
+		{
+			"name":"Congo",
+			"distance":"4,700",
+			"lat":"-3.823951",
+			"lng":"15.939144",
+			"continent":"AF"
+		},
+		{
+			"name":"Amur",
+			"distance":"4,444",
+			"lat":"50.314723",
+			"lng":"127.622681",
+			"continent":"AS"
+		}
+	
+	]
+}

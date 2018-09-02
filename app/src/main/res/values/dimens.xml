@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headding_text_size">18sp</dimen>
+    <dimen name="text_size">14dp</dimen>
+    <dimen name="margin_bw_text">5dp</dimen>
+    <dimen name="fact_heading_text">20sp</dimen>
+    <dimen name="fact_margin">3dp</dimen>
+    <dimen name="fact_padding">5dp</dimen>
+</resources>
